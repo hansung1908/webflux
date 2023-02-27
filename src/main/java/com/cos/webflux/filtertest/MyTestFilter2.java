@@ -1,6 +1,6 @@
-package com.cos.webflux.filter.test;
+package com.cos.webflux.filtertest;
 
-import com.cos.webflux.filter.test.config.EventNotify;
+import com.cos.webflux.filtertest.config.EventNotify;
 import jakarta.servlet.*;
 import java.io.IOException;
 

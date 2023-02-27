@@ -1,7 +1,7 @@
-package com.cos.webflux.filter.test.config;
+package com.cos.webflux.filtertest.config;
 
-import com.cos.webflux.filter.test.MyTestFilter;
-import com.cos.webflux.filter.test.MyTestFilter2;
+import com.cos.webflux.filtertest.MyTestFilter;
+import com.cos.webflux.filtertest.MyTestFilter2;
 import jakarta.servlet.Filter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

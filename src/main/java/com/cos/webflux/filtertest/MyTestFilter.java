@@ -1,6 +1,6 @@
-package com.cos.webflux.filter.test;
+package com.cos.webflux.filtertest;
 
-import com.cos.webflux.filter.test.config.EventNotify;
+import com.cos.webflux.filtertest.config.EventNotify;
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -29,6 +29,7 @@ public class MyTestFilter implements Filter {
         for(int i = 0; i < 5; i++) {
             out.print("응답 " + i + "\n");
             out.flush(); // 버퍼 비우기
+            // reactive streams의 onNext() 메소드를 통해 한번에 몇개의 데이터를 보낼지 정할 수 있음
             try {
                 Thread.sleep(1000);
             } catch (Exception e) {

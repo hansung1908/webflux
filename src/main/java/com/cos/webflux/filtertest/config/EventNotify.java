@@ -1,4 +1,4 @@
-package com.cos.webflux.filter.test.config;
+package com.cos.webflux.filtertest.config;
 
 import lombok.Getter;
 import lombok.Setter;
