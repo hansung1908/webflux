@@ -10,5 +10,3 @@ stream을 활용하여 즉각적인 응답을 제공하고
 (SSE 프로토콜: Server Send Event 프로토콜로 push 기술을 이용해 서버가 주도적으로 응답하는 방식)
 
 sse 이전에 사용하는 websocket은 request를 계속 유지해야 했었는데 sse는 처음 한번만 request를 보내면 되어 성능면에서 더욱 좋아졌다.
-
-몽고DB의 @Tailable 어노테이션을 통해 보다 효과적으로 webflux를 코딩할 수 있다.
