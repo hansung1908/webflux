@@ -17,7 +17,7 @@ public class MyTestFilterConfig {
     @Bean
     public FilterRegistrationBean<Filter> addFilter() {
 
-        System.out.println("필터 등록");
+        // System.out.println("필터 등록");
 
         FilterRegistrationBean<Filter> bean = new FilterRegistrationBean<>(new MyTestFilter(eventNotify));
         bean.addUrlPatterns("/sse");
@@ -28,7 +28,7 @@ public class MyTestFilterConfig {
     @Bean
     public FilterRegistrationBean<Filter> addFilter2() {
 
-        System.out.println("필터2 등록");
+        // System.out.println("필터2 등록");
 
         FilterRegistrationBean<Filter> bean = new FilterRegistrationBean<>(new MyTestFilter2(eventNotify));
         bean.addUrlPatterns("/add");

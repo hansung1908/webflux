@@ -18,7 +18,7 @@ public class MyTestFilter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 
-        System.out.println("필터 실행");
+        // System.out.println("필터 실행");
 
         HttpServletResponse resp = (HttpServletResponse) response;
         resp.setContentType("text/event-stream; charset=UTF-8"); // event-stream이어야 실시간으로 나눠서 받아짐
