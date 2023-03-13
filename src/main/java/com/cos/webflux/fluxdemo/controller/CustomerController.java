@@ -2,7 +2,6 @@ package com.cos.webflux.fluxdemo.controller;
 
 import com.cos.webflux.fluxdemo.domain.Customer;
 import com.cos.webflux.fluxdemo.repository.CustomerRepository;
-import lombok.Data;
 import org.springframework.http.MediaType;
 import org.springframework.http.codec.ServerSentEvent;
 import org.springframework.web.bind.annotation.GetMapping;
